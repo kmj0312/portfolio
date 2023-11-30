@@ -720,7 +720,7 @@ nav{
 }
 
 .bye{
-    opacity:1;
+    opacity:0;
     pointer-events: none;
 }
 
