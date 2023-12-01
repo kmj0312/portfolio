@@ -67,7 +67,7 @@ $(document).ready(function(){
         
         // 모바일 팝업
 
-        let b = 0 
+    let b = 0 
     let popup_next2 = $(".popup_right2")
     let popup_prev2 = $(".popup_left2")
 
@@ -115,6 +115,17 @@ $(document).ready(function(){
             popup_next2.addClass("bye") //2,3번째
             popup_prev2.addClass("bye")
         })    
+
+    // 팝업리스트
+
+    // $(".popuplist").hover(function(){
+    //     $(".bl").css("border","1px solid white")
+    // })
+
+    // $(".popuplist").mouseleave(function(){
+    //     $(".bl").css("border","none")
+    // })
+
 
 
     // 배너

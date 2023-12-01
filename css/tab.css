@@ -151,6 +151,15 @@
         color: white;
         background-color: black;
         border-radius: 10px;
+        transition: all 1s ease 0s;
+    }
+
+    .focus_a:hover{
+        padding: 0% 2%;
+        background: white;
+        color: black;
+        border: 1px solid black;
+        transition: all 1s ease 0s;
     }
     
     .focus_a h2{
@@ -173,6 +182,13 @@
         width: 36%;
         border: 1px solid black;
         border-radius: 10px;
+    }
+
+    .focus_b:hover{
+        padding: 0% 2%;
+        background: black;
+        color: white;
+        transition: all 1s ease 0s;
     }
     
     .focus_b h2{
@@ -215,13 +231,29 @@
     
     .skill_cop{
         /* border: 1px solid red; */
-        width: 40%;
+        width: 41%;
         font-weight: 400;
         font-size: 1.6vw;
         color: white;
         background: black;
         padding: 0 4%;
         border-radius: 10px;
+    }
+
+    .skill_cop:nth-of-type(1):hover{
+        border: 1px solid black;
+        background: white;
+        color: black;
+        padding: 0 4.5%;
+        transition: all 1s ease 0s;
+    }
+
+    .skill_cop:nth-of-type(2):hover{
+        border: 1px solid black;
+        background: white;
+        color: black;
+        padding: 0 4.5%;
+        transition: all 1s ease 0s;
     }
     
     .skill_title{
@@ -238,7 +270,7 @@
         display: flex;
         width: 75%;
         height: 17vw;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 auto;
     }
     
@@ -252,6 +284,31 @@
         color: white;
         border-radius: 10px;
     }
+
+    .vs_cop:nth-of-type(1):hover{
+        border: 1px solid black;
+        color: black;
+        background: white;
+        padding: 6% 4.5%;
+        transition: all 1s ease 0s;
+    }
+
+    .vs_cop:nth-of-type(2):hover{
+        border: 1px solid black;
+        color: black;
+        background: white;
+        padding: 6% 4.5%;
+        transition: all 1s ease 0s;
+    }
+
+    .vs_cop:nth-of-type(3):hover{
+        border: 1px solid black;
+        color: black;
+        background: white;
+        padding: 6% 4.5%;
+        transition: all 1s ease 0s;
+    }
+
     
     .vs_title{
         display: flex;
@@ -310,7 +367,33 @@
         margin:0 2% ;
         background: white;
         color: black;
+        transition: all 1s ease 0s;
     }
+
+    .popuplist:nth-of-type(1):hover{
+        padding: 0% 1%;
+    }
+    
+    .popuplist:nth-of-type(2):hover{
+        padding: 0% 1%;
+    }
+    
+    .popuplist:nth-of-type(3):hover{
+        padding: 0% 1%;
+    }
+    
+    .popuplist:nth-of-type(4):hover{
+        padding: 0% 1%;
+    }
+    
+    .popuplist:nth-of-type(5):hover{
+        padding: 0% 1%;
+    }
+    
+    .popuplist:nth-of-type(6):hover{
+        padding: 0% 1%;
+    }
+    
     
     .popuplist h2{
         font-weight: bold;
@@ -528,6 +611,7 @@
         background:black;
         padding: 1.2%;
         border-radius: 50%;
+        transition: all 1s ease 0s;
     }
     
     .popup_btn2{
@@ -572,6 +656,7 @@
         opacity: 0.8;
         padding: 3%;
         border-radius: 30px;
+        transition: all 1s ease 0s;
     }
     
     .san h2{
@@ -700,12 +785,14 @@
     .bye{
         opacity:0;
         pointer-events: none;
+        transition: all 1s ease 0s;
     }
     
     .btn li{
         background:black;
         padding: 1.2%;
         border-radius: 50%;
+        transition: all 1s ease 0s;
     }
     
     .banner_train{
@@ -814,18 +901,27 @@
         width: 60%;
     }
 
-    .view_btn{
-        /* border: 1px solid red; */
-        width: 13%;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 3% 10%;
-        border-radius: 10px ;
-        background: black;
-        color: white;
-        font-weight: bold;
+    .view_btn a{
+    /* border: 1px solid red; */
+    display: block;
+    width: 13%;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 3% 10%;
+    border-radius: 10px ;
+    background: black;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease 0s;
+    text-align: center;
     }
     
+    .view_btn a:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        transition: all 1s ease 0s;
+    }
     /* 리디자인 1번 */
     
     .redesign_a{

@@ -861,18 +861,27 @@
         margin-left: 5%;
     }
     
-    .view_btn{
-        /* border: 1px solid red; */
-        width: 10%;
-        margin: 0 auto;
-        margin-top: 8%;
-        padding: 3% 10%;
-        border-radius: 10px ;
-        background: black;
-        color: white;
-        font-weight: bold;
+    .view_btn a{
+     /* border: 1px solid red; */
+    display: block;
+    width: 14%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 3% 10%;
+    border-radius: 10px ;
+    background: black;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease 0s;
+    text-align: center;
     }
     
+    .view_btn a:active{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 1s ease 0s;
+    }
 
 
     /* 리디자인 1번 */
@@ -921,7 +930,7 @@
     }
     .re_b_color{
         display: flex;
-        width: 75%;
+        width: 80%;
         align-items: center;
         margin: 0 auto;
     }
@@ -929,7 +938,7 @@
     .re_b_font{
         display: flex;
         align-items: center;
-        width: 75%;
+        width: 80%;
         margin: 0 auto;
     }
     

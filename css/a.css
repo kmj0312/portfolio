@@ -161,6 +161,14 @@ nav{
     color: white;
     background-color: black;
     border-radius: 10px;
+    transition: all 1s ease 0s;
+}
+
+.focus_a:hover{
+    padding: 0% 2%;
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .focus_a h2{
@@ -183,6 +191,14 @@ nav{
     width: 36%;
     border: 1px solid black;
     border-radius: 10px;
+    transition: all 1s ease 0s;
+}
+
+.focus_b:hover{
+    padding: 0% 2%;
+    background: black;
+    color: white;
+    border: none;
 }
 
 .focus_b h2{
@@ -234,6 +250,22 @@ nav{
     border-radius: 10px;
 }
 
+.skill_cop:nth-of-type(1):hover{
+    padding: 0 5%;
+    transition: all 1s ease 0s;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.skill_cop:nth-of-type(2):hover{
+    padding: 0 5%;
+    transition: all 1s ease 0s;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .skill_title{
     display: flex;
     align-items: center;
@@ -255,8 +287,9 @@ nav{
     display: flex;
     width: 75%;
     height: 17vw;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
+    transition: all 1s ease 0s;
 }
 
 .vs_cop{
@@ -268,6 +301,31 @@ nav{
     background: black;
     color: white;
     border-radius: 10px;
+    transition: all 1s ease 0s;
+}
+
+.vs_cop:nth-of-type(1):hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    padding: 6% 5%;
+    transition: all 1s ease 0s;
+}
+
+.vs_cop:nth-of-type(2):hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    padding: 6% 5%;
+    transition: all 1s ease 0s;
+}
+
+.vs_cop:nth-of-type(3):hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    padding: 6% 5%;
+    transition: all 1s ease 0s;
 }
 
 .vs_title{
@@ -278,9 +336,6 @@ nav{
     margin-bottom: 15%;
 }
 
-.vs_title h2{
-    margin-left: 5%;
-}
 
 .vs{
     display: flex;
@@ -325,13 +380,38 @@ nav{
 }
 
 .popuplist{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     height:52vw;
     width: 15.6%;
     margin:0 2% ;
     background: white;
-    color: black;
+    color: black;;
+    transition: all 1s ease 0s;
+}
+
+.popuplist:nth-of-type(1):hover{
+    padding: 0% 1%;
+}
+
+.popuplist:nth-of-type(2):hover{
+    padding: 0% 1%;
+}
+
+.popuplist:nth-of-type(3):hover{
+    padding: 0% 1%;
+}
+
+.popuplist:nth-of-type(4):hover{
+    padding: 0% 1%;
+}
+
+.popuplist:nth-of-type(5):hover{
+    padding: 0% 1%;
+}
+
+.popuplist:nth-of-type(6):hover{
+    padding: 0% 1%;
 }
 
 .popuplist h2{
@@ -550,6 +630,7 @@ nav{
     background:black;
     padding: 1.2%;
     border-radius: 50%;
+    transition: all 1s ease 0s;
 }
 
 .popup_btn2{
@@ -595,6 +676,7 @@ nav{
     opacity: 0.8;
     padding: 3%;
     border-radius: 30px;
+    transition: all 1s ease 0s;
 }
 
 .san h2{
@@ -722,12 +804,14 @@ nav{
 .bye{
     opacity:0;
     pointer-events: none;
+    transition: all 1s ease 0s;
 }
 
 .btn li{
     background:black;
     padding: 1.2%;
     border-radius: 50%;
+    transition: all 1s ease 0s;
 }
 
 .banner_train{
@@ -836,8 +920,17 @@ nav{
     margin-left: 5%;
 }
 
-.view_btn{
+
+.view_btn a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 1s ease 0s;
+}
+
+.view_btn a{
     /* border: 1px solid red; */
+    display: block;
     width: 11%;
     margin: 0 auto;
     margin-top: 15%;
@@ -846,7 +939,9 @@ nav{
     background: black;
     color: white;
     font-weight: bold;
-}
+    transition: all 1s ease 0s;
+    text-align: center;
+} 
 
 /* 리디자인 1번 */
 
